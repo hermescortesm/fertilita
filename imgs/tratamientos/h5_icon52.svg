@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="227" height="216" viewBox="0 0 227 216">
+  <defs>
+    <filter id="Image" x="0" y="0" width="227" height="216" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_455" data-name="Grupo 455" transform="translate(-498.072 -3328.518)">
+    <g transform="matrix(1, 0, 0, 1, 498.07, 3328.52)" filter="url(#Image)">
+      <g id="Image-2" data-name="Image" transform="translate(7.5 2.5)" fill="#fff" stroke="#a2e2ff" stroke-width="6">
+        <rect width="212" height="201" rx="100.5" stroke="none"/>
+        <rect x="3" y="3" width="206" height="195" rx="97.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Grupo_1807" data-name="Grupo 1807" transform="translate(-1873.098 2117.93)">
+      <g id="Grupo_1807-2" data-name="Grupo 1807" transform="translate(2431.67 1260.088)">
+        <path id="Trazado_3089" data-name="Trazado 3089" d="M2510.99,1368.089h-50.638a3.157,3.157,0,0,1-3.157-3.157v-.038a3.158,3.158,0,0,1,3.157-3.158h6.276a3.158,3.158,0,0,0,3.158-3.157v-12.643a3.159,3.159,0,0,0-3.158-3.157h-31.8a3.158,3.158,0,0,1-3.158-3.158v-76.372a3.159,3.159,0,0,1,3.158-3.158h101.616a3.158,3.158,0,0,1,3.157,3.158v76.415a3.158,3.158,0,0,1-3.157,3.158H2504.7a3.157,3.157,0,0,0-3.157,3.157v12.638a3.158,3.158,0,0,0,3.157,3.159h6.289a3.157,3.157,0,0,1,3.158,3.157h0A3.158,3.158,0,0,1,2510.99,1368.089Zm23.737-104.451h-98.41v61.92h98.41Zm-98.444,73.684h98.407v-6.715h-98.407Zm39.944,24.365h18.853v-18.854h-18.853Z" transform="translate(-2431.67 -1260.088)" fill="#74a839"/>
+      </g>
+      <g id="Grupo_1808" data-name="Grupo 1808" transform="translate(2451.064 1272.799)">
+        <path id="Trazado_3090" data-name="Trazado 3090" d="M2475.844,1270.68h.043a3.186,3.186,0,0,1,3.161,3.577,25.476,25.476,0,0,1-2.756,8.809,38.571,38.571,0,0,1-8.128,9.94c5.811,5.16,9.966,11.118,10.888,18.7a3.193,3.193,0,0,1-3.161,3.586h0a3.185,3.185,0,0,1-3.153-2.8c-.069-.552-.147-1.1-.241-1.65-.35-2.047-.389-2.04-2.411-2.04-4.744,0-9.487.02-14.231-.022-.758-.007-1.088.24-1.2.943-.148.952-.3,1.9-.455,2.863a3.206,3.206,0,0,1-3.162,2.7h0a3.217,3.217,0,0,1-3.185-3.609c.915-7.524,5.05-13.475,10.921-18.689-5.83-5.172-9.985-11.123-10.92-18.694a3.217,3.217,0,0,1,3.185-3.615h0a3.207,3.207,0,0,1,3.167,2.72c.124.794.243,1.588.349,2.383a1.612,1.612,0,0,0,1.618,1.41c4.919-.062,9.839-.052,14.758,0,.835.007,1.212-.264,1.332-1.044.142-.924.288-1.848.437-2.784A3.182,3.182,0,0,1,2475.844,1270.68Zm-10.631,16.352,2.482-2.567a.519.519,0,0,0-.373-.879h-7.9a.548.548,0,0,0-.369.955l2.878,2.6A2.364,2.364,0,0,0,2465.213,1287.032Zm-6.657,15.217.122.158,9.606-.047h0a.328.328,0,0,0-.04-.439l-3.355-3.107a2.188,2.188,0,0,0-2.952-.02l-3.341,3.011A.328.328,0,0,0,2458.555,1302.25Z" transform="translate(-2447.832 -1270.68)" fill="#74a839"/>
+      </g>
+      <g id="Grupo_1809" data-name="Grupo 1809" transform="translate(2488.882 1279.341)">
+        <path id="Trazado_3091" data-name="Trazado 3091" d="M2479.346,1282.328v-6.2h31.543v6.2Z" transform="translate(-2479.346 -1276.132)" fill="#74a839"/>
+      </g>
+      <g id="Grupo_1810" data-name="Grupo 1810" transform="translate(2488.919 1292.013)">
+        <path id="Trazado_3092" data-name="Trazado 3092" d="M2510.885,1286.692v6.2h-31.507v-6.2Z" transform="translate(-2479.377 -1286.692)" fill="#74a839"/>
+      </g>
+      <g id="Grupo_1811" data-name="Grupo 1811" transform="translate(2488.857 1304.683)">
+        <path id="Trazado_3093" data-name="Trazado 3093" d="M2479.326,1303.425v-6.175h31.539v6.175Z" transform="translate(-2479.326 -1297.25)" fill="#74a839"/>
+      </g>
+      <g id="Grupo_1812" data-name="Grupo 1812" transform="translate(2482.56 1349.186)">
+        <path id="Trazado_3094" data-name="Trazado 3094" d="M2480.312,1334.336v6.185h-6.234v-6.185Z" transform="translate(-2474.078 -1334.336)" fill="#74a839"/>
+      </g>
+    </g>
+  </g>
+</svg>

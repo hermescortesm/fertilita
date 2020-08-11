@@ -1,0 +1,838 @@
+/*Fonts*/
+@font-face {
+  font-family: NotoSansJPMedium;
+  src: url(../fonts/NotoSansJP-Medium.otf);
+}
+@font-face {
+  font-family: NotoSansJPRegular;
+  src: url(../fonts/NotoSansJP-Regular.otf);
+}
+@font-face {
+  font-family: NotoSansJPBold;
+  src: url(../fonts/NotoSansJP-Bold.otf);
+}
+
+@font-face {
+  font-family: ExoMedium;
+  src: url(../fonts/exo-medium.otf);
+}
+@font-face {
+  font-family: ExoRegular;
+  src: url(../fonts/exo-regular.otf);
+}
+@font-face {
+  font-family: ExoDemiBold;
+  src: url(../fonts/exo-demibold.otf);
+}
+@font-face {
+  font-family: ExoBold;
+  src: url(../fonts/exo-bold.otf);
+}
+@font-face {
+  font-family: GorditaMedium;
+  src: url(../fonts/Gordita-Medium.otf);
+}
+@font-face {
+  font-family: GorditaRegular;
+  src: url(../fonts/Gordita-Regular.otf);
+}
+
+.fontExoMedium{
+  font-family: ExoMedium;
+}
+.fontExoRegular{
+  font-family: ExoRegular;
+}
+.fontExoBold{
+  font-family: ExoBold;
+}
+.fontExoDemiBold{
+  font-family: ExoDemiBold;
+}
+.fontNotoSansJPBold{
+  font-family: NotoSansJPBold;
+}
+.fontNotoSansJPRegular{
+  font-family: NotoSansJPRegular;
+}
+/*End fonts*/
+
+/*Reset*/
+.row{
+  margin-right: 0;
+}
+/*End reset*/
+
+/*Navbar*/
+
+/*Fix for dropdown*/
+@media screen and (min-width: 768px) {
+  .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+		display: block;
+	}
+	.dropdown-menu{
+		margin-top: 0;
+	}
+	.dropdown-toggle{
+		margin-bottom: 2px;
+	}
+	.navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+		margin-bottom: 0;
+	}
+}
+/*End fix for dropdown*/
+
+/*NavTop*/
+
+
+.blueBG{
+  background-color: #00549c;
+  color: #FFFFFF;
+  min-height: 60px;
+}
+.blueBG a{
+  color: #FFFFFF;
+}
+.padRight{
+  padding-right: 10px;
+}
+.navTop{
+  font-size: 20px;
+  /*padding-right: 200px;*/
+  max-height: 60px;
+}
+.navbar{
+  /*padding: 0 !important;*/
+}
+
+.fontSmall{
+  font-size: 18px;
+}
+.fontMedium{
+  font-size: 20px;
+}
+/*End NavTop*/
+
+/*NavBot*/
+.navBot{
+  min-height: 110px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000029;
+  color: #727272;
+  font-size: 22px;
+}
+.navBot a{
+  color: #727272;
+}
+.navBot ul>li{
+  padding-right: 50px;
+}
+
+.dropdown-menu, .dropdown-menu a, .dropdown-item:focus, .dropdown-item:hover{
+  background-color: #a8cff3;
+  color: #00549C;
+}
+
+/*End NavBot*/
+
+/*End Navbar*/
+
+/*Slider*/
+.carousel-caption{
+  top: 20%;
+}
+.carousel-caption > h5{
+  color: #00549c;
+  font-size: 81px;
+}
+.largeCarousel{
+  width: 720px;
+  text-align: left;
+  /*margin-left: 300px;
+  margin-bottom: 350px;*/
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  height: 80px;
+  width: 80px;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2374a839' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2374a839' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel .carousel-indicators li {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  border: 4px solid #00549c;
+}
+.carousel-indicators{
+  bottom: 6%;
+}
+.carousel-indicators li{
+  margin-right: 20px;
+}
+.separationCarousel{
+  padding-right: 24px;
+}
+/*End Slider*/
+
+/*Buttons*/
+.btn-primary{
+  background-color: #74A839 !important;
+  border-color: #74A839 !important;
+  /*border-radius: 12px;*/
+  color: #FFFFFF !important;
+}
+.xlButton{
+  width: 260px;
+  /*height: 75px;*/
+  height: auto;
+  font-size: 28px;
+}
+/*End Buttons*/
+
+/*Porque elegirnos*/
+.porque{
+  height: 697px;
+  padding-top: 70px;
+  background: url("../imgs/backgrounds/h1_forma1.svg");
+  background-repeat: no-repeat;
+}
+.porque h2{
+  padding-bottom: 88px;
+  font-size: 52px;
+  color: #00549C;
+}
+.porque p{
+  padding-top: 40px;
+  font-size: 20px;
+  color: #949494;
+}
+/* End Porque elegirnos*/
+
+/*Quieres ser mama*/
+.quieres{
+  height: 664px;
+  background: url("../imgs/quieres/h1_img7.png");
+}
+.quieresPad{
+  padding-top: 104px;
+}
+.quieres h2{
+  padding-bottom: 45px;
+  font-size: 74px;
+  color: #00549C;
+  width: 388px;
+  text-align: left;
+}
+.quieres p{
+  font-size: 20px;
+  font-family: NotoSansJPRegular;
+  color: #949494;
+}
+.buttonQuieres{
+  margin-top: 56px;
+  margin-right: 28px;
+  /*height: 55px;*/
+  height: auto;
+  border-radius: 12px;
+  font-family: ExoMedium;
+  font-size: 23px;
+}
+.quieresSer{
+  width: 500px;
+  height: 500px;
+}
+/*End Quieres ser mama*/
+
+/*Boton flotante*/
+.float{
+  position:fixed;
+  width:340px;
+  height:110px;
+  top:80%;
+  right:40px;
+  color:#FFF;
+  text-align:center;
+  font-size:30px;
+
+  z-index:100;
+}
+.float a{
+  color: #25d366;
+}
+.my-float{
+  /*float: right*/
+  margin-top:36px;
+  color: #25d366;
+  text-shadow: 2px 2px 3px #999;
+}
+.my-float-text{
+  float: left;
+  /*background-color: #00549c;*/
+  background: url("../imgs/boton_flotante/boton_globo.svg");
+  color: #FFFFFF;
+  width: 202px;
+  height: 100px;
+  font-size: 23px;
+  padding-top: 10px;
+}
+.my-float-whats{
+  padding-top: 0;
+}
+/*End boton flotante*/
+
+/*Categorias*/
+.segundoTab{
+  width: 70%;
+  margin: auto;
+}
+.primerTab{
+  /*width: 100%;*/
+}
+.nav-tabs{
+  border-bottom: none;
+}
+.nav-tabs .nav-item{
+  margin: 0;
+}
+.nav-item{
+}
+.nav-tabs .evaluaciones.nav-link.active{
+  color: #74A839;
+  font-size: 35px;
+  font-family: ExoBold;
+  border-bottom: 5px solid;
+  background-color: #FFFFFF;
+}
+.nav-tabs .evaluaciones.nav-link{
+  background-color: #F5F5F5;
+  color: #949494;
+  font-size: 35px;
+  font-family: ExoBold;
+  border-bottom: 5px solid;
+}
+.nav-tabs .categoriasNav.nav-link.active{
+  color: #74A839;
+  background-color: #FFFFFF;
+}
+.nav-tabs .categoriasNav.nav-link{
+  box-shadow: 0px 0px 7px #00000029;
+  color: #00549C;
+  background-color: #F5F5F5;
+  font-family:ExoDemiBold;
+  font-size: 25px;
+  height: 150px;
+  max-width: 250px;
+  margin: auto;
+}
+.nav-tabs .categorias.nav-link{
+  color: #74A839;
+}
+
+
+.categorias h3{
+  color: #00549C;
+  font-family: ExoDemiBold;
+}
+.categorias h2{
+  color: #949494;
+  font-family: NotoSansJPMedium;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 35px;
+}
+
+.bloqueCategorias{
+  padding-bottom: 20px;
+}
+
+/*Tratamientos*/
+.tratamientos{
+  height: 981px;
+  background: url("../imgs/tratamientos/h1_img8.png");
+}
+.tratamientos h2{
+  padding-top: 86px;
+  color: #00549C;
+  font-size: 52px;
+  font-family: ExoBold;
+}
+.tratamientos h3{
+  color: #00549C;
+  font-family: ExoDemiBold;
+  font-size: 30px;
+}
+.tratamientos p{
+  margin-top: 34px;
+  margin-bottom: 40px;
+  padding-left: 220px;
+  padding-right: 220px;
+  font-size: 20px;
+  font-family: NotoSansJPRegular;
+  color: #949494;
+}
+.tratamientos hr{
+  margin-top: 100px;
+  border: 1px solid #707070;
+  opacity: 0.5;
+}
+.cuadro{
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 354px;
+  height: 276px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 7px #00000029;
+  border: 7px solid #A2E2FF;
+  border-radius: 20px;
+  margin-top: 34px;
+}
+
+.quieresSaber{
+  background: url("../imgs/tratamientos/h5_img2.jpg");
+  height: 498px;
+}
+.quieresSaber h2{
+  padding-top: 80px;
+  padding-bottom: 30px;
+  color: #00549C;
+  font-family: ExoBold;
+  font-size: 50px;
+}
+
+.modal-content{
+  border-radius: 0 !important;
+}
+
+.titleModalTratamientos{
+  color: #74A839 !important;
+  font-family: ExoDemiBold !important;
+  font-size: 38px !important;
+}
+
+.modal-body ul{
+  list-style: none;
+}
+.dot{
+  color: #74A839;
+  font-size: 30px;
+}
+
+.modal p{
+  font-family: NotoSansJPRegular;
+  font-size: 20px;
+  color: #707070;
+}
+.modalTratamientos .modal-body{
+  background: url("../imgs/modal/modal_fondo.png") !important;
+  background-size: cover;
+}
+
+
+/*End Tratamientos*/
+
+/*Preguntas frecuentes*/
+.preguntas{
+  height: 648px;
+  padding-top: 90px;
+}
+.preguntas h2{
+  color: #74a839;
+  font-size: 50px;
+  font-family: ExoBold;
+  padding-bottom: 60px;
+}
+.preguntas h3{
+  color: #949494;
+  font-size: 17px;
+  font-family: NotoSansJPMedium;
+}
+.verMas{
+  color: #00549c;
+  font-family: NotoSansJPBold;
+  float: right;
+  cursor: pointer;
+}
+.popover {
+  min-width: 60% !important;
+  /*margin-top: -20px;*/
+  cursor: pointer;
+  margin-right: 20%;
+  border: none;
+
+  /*Shadow*/
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.2);
+
+}
+.popover-body{
+  font-family: NotoSansJPRegular;
+  font-size: 15px;
+  color: #949494;
+  padding-left: 30px;
+  padding-right: 200px;
+}
+.popover .arrow{
+  display: none;
+}
+.float-right{
+  margin-top: -5px;
+  padding-left: 15px;
+}
+.float-left{
+  margin-right: 5px;
+}
+.preguntas hr{
+  /*margin-top: 36px;
+  margin-bottom: 36px;*/
+  border: 1px solid;
+  opacity: 0.4;
+}
+
+.buttonAzul{
+  background-color: #00549C !important;
+  border-color: #00549C !important;
+  border-radius: 12px;
+  padding: 12px;
+  font-family: ExoMedium;
+  font-size: 20px;
+  width: 275px;
+  height: 55px;
+}
+
+/*End Preguntas frecuentes*/
+
+/*Guia descargable*/
+.guia{
+  height: 513px;
+  background: url("../imgs/guia/h1_img1.png");
+  padding: 77px 0 86px 0;
+}
+.guia h4{
+  font-family: NotoSansJPMedium;
+  font-size: 26px;
+  color: #A2E2FF;
+}
+.guia h2{
+  font-family: ExoDemiBold;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+.guia p{
+  font-family: NotoSansJPRegular;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.btnGuia{
+  width: 260px;
+  height: 75px;
+  font-family: ExoBold;
+  font-size: 30px;
+  border-radius: 12px;
+  padding: 10px 0 0 0 ;
+}
+/*End Guia descargable*/
+/*Footer*/
+.footer{
+  background-color: #00549C;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #FFFFFF;
+}
+.footer a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footer h4{
+  font-family: GorditaMedium;
+  font-size: 18px;
+}
+.footer h2{
+  font-family: GorditaMedium;
+  font-size: 34px;
+}
+.footer p{
+  font-family: GorditaRegular;
+  font-size: 14px;
+}
+.footer i{
+  color: #FFFFFF;
+  padding-right: 20px;
+}
+/*End footer*/
+
+/*Modal*/
+
+/*Boton cerrar*/
+.modal-header .close{
+  background-color: #00549C;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-family: GorditaMedium;
+  border-radius: 0px 0px 0px 16px;
+  width: 88px;
+  width: 88px;
+}
+.close:not(:disabled):not(.disabled):hover{
+  opacity: 1;
+}
+.close{
+  opacity: 1;
+}
+/*End boton cerrar*/
+
+.modalProfesionales{
+  background: url("../imgs/modal/modal_profesionales.jpg");
+  background-size: 100%;
+  height: 750px;
+
+}
+.modal-header{
+  border-bottom: 0 !important;
+}
+.modal-lg{
+  min-width: 80%;
+  min-height: 80%;
+}
+.modal-left{
+  float: left;
+  color: #000000;
+}
+.modal-left h2{
+  font-family: ExoDemiBold;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.modal-left p{
+  font-family: NotoSansJPRegular;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.modal-left h4{
+  color: #A2E2FF;
+  font-family: ExoDemiBold;
+  font-size: 35px;
+}
+.modal-right{
+  float: right;
+  color: #949494;
+  font-family: NotoSansJPRegular;
+  font-size: 18px;
+}
+.modal-right input{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 50px;
+  border: 1px solid #808080;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.modal-body{
+  flex: none;
+}
+/*End modal*/
+
+/**/
+.imageHeader{
+  background: url("../imgs/tratamientos/h5_img1.png") no-repeat center center;
+  min-height: 625px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.imageHeader h2{
+  font-family: ExoBold;
+  font-size: 80px;
+  color: #FFFFFF;
+  width: 50%;
+  padding-top: 20%;
+}
+/**/
+/**************************************************************************************************************/
+/*                                                  MOBILE                                                    */
+/**************************************************************************************************************/
+/* Fixes for mobile */
+@media (max-width: 768px) {
+  .navbar{
+    margin: auto;
+  }
+  .fixed-top-sm {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  body {
+    /*padding-top: 44px;*/
+  }
+  .float{
+    left: 6%;
+  }
+  .porque{
+    height: auto;
+  }
+  .quieres{
+    height: auto;
+  }
+  .quieresPad{
+    padding-top: 0;
+  }
+  .quieres h2{
+    font-size: 52px;
+    width: auto;
+  }
+  .quieres img{
+    margin-top: 40px;
+    text-align: center;
+  }
+  .quieresSer{
+    width: 255px;
+    height: 255px;
+  }
+  .tratamientos{
+    width: auto;
+    height: auto;
+  }
+  .tratamientos h2{
+    padding-top: 0;
+  }
+  .tratamientos p{
+    width: auto;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .cuadro{
+    border-radius: 0;
+    border: none;
+    padding: 0;
+    width: auto;
+    height: auto;
+    box-shadow: none;
+  }
+  .tratamientos hr{
+    display: none;
+  }
+  .preguntas{
+    height: auto;
+    padding-top: 40px;
+  }
+  .preguntas h2{
+    padding-bottom: 20px;
+  }
+  .popover {
+    min-width: 80%;
+    cursor: pointer;
+    margin-right: auto;
+    margin-top: auto;
+  }
+  .popover-body{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .verMas{
+    display: inline-grid;
+  }
+  .float-right{
+    margin-top: 0;
+    padding-left: 0;
+  }
+  .preguntas hr{
+    display: none;
+  }
+  .guia{
+    width: auto;
+    height: auto;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+/*  .guia > .row{
+    margin-right: 0 !important;
+  }*/
+  .row{
+    margin-right: 15px;
+  } /*Must para moviles*/
+  .guia h2{
+    font-size: 40px;
+    text-align: center;
+  }
+  .guia h4{
+    text-align: center;
+  }
+  .guia p{
+    text-align: center;
+  }
+  .btnGuia{
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  .buttonAzul{
+    margin-bottom: 20px;
+  }
+
+  .navbar-brand img{
+    max-width: 120px;
+  }
+  .fontMedium, .fontSmall{
+    font-size: 10px;
+  }
+  .nav-link{
+    padding-right: 0;
+  }
+  .navTop{
+    font-size: 10px;
+  }
+  .nav-scroller .nav {
+    padding-left: 0;
+  }
+  .blueBG{
+    min-height: auto;
+  }
+  .imageHeader{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .imageHeader h2{
+    font-size: 56px;
+    width: 100%;
+    padding-top: 50%;
+  }
+  .categoriasNav{
+    width: 100%;
+  }
+  .nav-tabs .categoriasNav.nav-link{
+    box-shadow: none;
+  }
+  .nav-tabs .categoriasNav.nav-link{
+    max-width: none;
+    min-width: 340px;
+    height: auto;
+    font-size: 18px;
+  }
+  .nav-tabs .evaluaciones.nav-link.active{
+    font-size: 20px;
+    min-width: 300px;
+  }
+  .nav-tabs .evaluaciones.nav-link{
+    font-size: 20px;
+    min-width: 300px;
+  }
+  .segundoTab{
+    width: 100%;
+  }
+
+}
+
+/*End fixes mobile*/
