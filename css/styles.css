@@ -708,6 +708,18 @@
   font-size: 50px;
 }
 
+.primerPasoMamaEnElFuturo{
+  background: url("../imgs/mujer/h4_img3.jpg");
+  height: 457px;
+}
+.primerPasoMamaEnElFuturo h2{
+  padding-top: 80px;
+  padding-bottom: 30px;
+  color: #00549C;
+  font-family: ExoBold;
+  font-size: 50px;
+}
+
 .primerPaso{
   background: url("../imgs/mujer/h2_img3.jpg");
   height: 457px;
@@ -1000,13 +1012,13 @@
   .segundoTab{
     width: 100%;
   }
-  .mujer{
+  .mujer, .mujerSoltera{
     background-size: cover;
   }
-  .mujer h2, .mujer p{
+  .mujer h2, .mujer p, .mujerSoltera h2, .mujerSoltera p{
     padding-left: 20px;
   }
-  .mujer p{
+  .mujer p, .mujerSoltera p{
     color: #FFFFFF;
   }
   .quieroSer{
@@ -1017,6 +1029,9 @@
   }
   .cualesOpciones > .row{
     padding-left: 25px !important;
+  }
+  .testimonios{
+    height: auto;
   }
 
 }
