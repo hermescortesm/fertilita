@@ -751,6 +751,18 @@
   font-size: 50px;
 }
 
+.primerPasoConocenos{
+  background: url("../imgs/conocenos/h6_img7.jpg");
+  height: 458px;
+}
+.primerPasoConocenos h2{
+  padding-top: 80px;
+  padding-bottom: 30px;
+  color: #00549C;
+  font-family: ExoBold;
+  font-size: 50px;
+}
+
 .primerPasoMamaEnElFuturo{
   background: url("../imgs/mujer/h4_img3.jpg");
   height: 457px;
