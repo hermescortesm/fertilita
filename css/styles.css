@@ -654,6 +654,28 @@
   width: 50%;
   padding-top: 20%;
 }
+/*Conocenos*/
+.conocenos{
+  background: url("../imgs/conocenos/conocenos.png") no-repeat center center;
+  background-size: cover;
+  min-height: 625px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.conocenos p{
+  font-family: NotoSansJPRegular;
+  font-size: 20px;
+  color: #707070;
+  width: 78%;
+}
+.conocenos h2{
+  font-family: ExoBold;
+  font-size: 80px;
+  color: #00549C;
+  padding-top: 40%;
+  width: 80%;
+}
+/*End conocenos*/
 
 /*Mujeres*/
 .mamaEnElFuturo{
@@ -782,6 +804,70 @@
   color: #949494;
   padding-top: 30px;
 }
+/*La clinica*/
+.laClinica{
+  height: auto;
+  padding-bottom: 40px;
+}
+.laClinica img{
+  padding-top: 100px;
+}
+.laClinica h2{
+  padding-top: 110px;
+  color: #00549C;
+  font-family: ExoRegular;
+  font-size: 80px;
+  width: 70%;
+}
+.laClinica h3{
+  font-family: ExoMedium;
+  font-size: 36px;
+  color: #74A839;
+  padding-top: 55px;
+  text-align: center;
+}
+.laClinica p{
+  font-family: NotoSansJPRegular;
+  font-size: 20px;
+  color: #949494;
+  padding-top: 30px;
+}
+
+.misionVision{
+  height: 312px;
+  background: url("../imgs/conocenos/h6_img4.jpg");
+}
+.mision h2{
+  color: #FFFFFF;
+  font-family: ExoBold;
+  font-size: 50px;
+  text-align: center;
+  padding-left: 40%;
+  padding-top: 10%;
+}
+.mision p{
+  color: #FFFFFF;
+  font-family: NotoSansJPRegular;
+  font-size: 18px;
+  text-align: center;
+  padding-left: 40%;
+}
+.vision h2{
+  color: #00549C;
+  font-family: ExoBold;
+  font-size: 50px;
+  text-align: center;
+  padding-right: 40%;
+  padding-top: 10%;
+}
+.vision p{
+  color: #00549C;
+  font-family: NotoSansJPRegular;
+  font-size: 18px;
+  text-align: center;
+  padding-right: 40%;
+}
+/*End La clinica*/
 .strongH2{
   font-family: ExoBold;
 }
@@ -1056,6 +1142,43 @@
   }
   .xlButton{
     margin-left: 20px;
+  }
+  .misionVision{
+    height: auto;
+    padding: 10px 0 10px 0;
+  }
+
+  .mision h2{
+    color: #FFFFFF;
+    font-family: ExoBold;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .mision p{
+    color: #FFFFFF;
+    font-family: NotoSansJPRegular;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .vision h2{
+    color: #FFFFFF;
+    font-family: ExoBold;
+    font-size: 50px;
+    text-align: center;
+    padding-right: 0;
+    padding-top: 0;
+  }
+  .vision p{
+    color: #FFFFFF;
+    font-family: NotoSansJPRegular;
+    font-size: 18px;
+    text-align: center;
+    padding-right: 0;
+    padding-top: 0;
   }
 
 }
