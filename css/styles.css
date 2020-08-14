@@ -1325,6 +1325,43 @@
 }
 
 /*End videos*/
+/*Reserva una cita*/
+.reservaUnaCita{
+  height: 982px;
+  background: url("../imgs/reservaunacita/background.png") no-repeat;
+  background-size: cover;
+  padding-top: 106px;
+}
+.reservaUnaCita h2{
+  color: #00549C;
+  font-size: 50px;
+  font-family: ExoBold;
+}
+.reservaUnaCita h3{
+  color: #00549C;
+  font-size: 35px;
+  font-family: ExoDemiBold;
+}
+.reservaUnaCita p{
+  color: #707070;
+  font-size: 18px;
+  font-family: NotoSansJPRegular;
+}
+.reservaUnaCita ::placeholder{
+  color: #949494;
+  font-size: 16px;
+  font-family: NotoSansJPRegular;
+}
+.strongReserva{
+  font-size: 22px !important;
+  font-family: NotoSansJPMedium !important;
+}
+.reservaUnaCita button{
+  border-radius: 12px;
+  font-size: 20px;
+  font-family: NotoSansJPBold;
+}
+/*End Reserva una cita*/
 /**/
 /**************************************************************************************************************/
 /*                                                  MOBILE                                                    */
@@ -1602,6 +1639,9 @@
   }
   .testimonioAzul h3, .testimonioBlanco h3{
     padding-top: 0;
+  }
+  .reservaUnaCita{
+    min-height: 1180px;
   }
 
 }
