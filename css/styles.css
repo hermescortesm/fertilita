@@ -769,7 +769,7 @@
 
 /*Staff Medico*/
 .staffMedico img{
-  max-width: 307px;
+  max-width: 305px;
   max-height: 320px;
 }
 .staffMedico{
@@ -1495,7 +1495,22 @@
     font-size: 50px;
   }
   .staffMedico{
-    display: none;
+    height: auto;
+  }
+  .staffMedico .card-text{
+    min-width: 281px;
+    max-width: 320px;
+    text-overflow: ellipsis;
+  }
+  .staffMedico .card .h4{
+    min-width: 265px;
+    max-width: 320px;
+    font-size: 22px;
+  }
+  .staffMedico .card p{
+    min-width: 238px;
+    max-width: 320px;
+    font-size: 16px;
   }
 
 }
