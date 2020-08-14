@@ -677,6 +677,58 @@
 }
 /*End conocenos*/
 
+/*Gracias*/
+.gracias{
+  height: 908px;
+  background: url("../imgs/gracias/h12_img1.jpg");
+  background-size: cover;
+}
+.gracias p{
+  font-family: NotoSansJPRegular;
+  font-size: 20px;
+  color: #707070;
+  width: 54%;
+}
+.gracias h2{
+  font-family: ExoBold;
+  font-size: 80px;
+  color: #00549C;
+  padding-top: 20%;
+  width: 80%;
+}
+.gracias button{
+  border-radius: 12px !important;
+}
+.gracias img{
+  padding-right: 20px;
+}
+
+.graciasDescarga{
+  height: 908px;
+  background: url("../imgs/gracias/gracias_descarga.jpg");
+  background-size: cover;
+}
+.graciasDescarga img{
+  padding-right: 20px;
+}
+.graciasDescarga p{
+  font-family: NotoSansJPRegular;
+  font-size: 20px;
+  color: #707070;
+  width: 54%;
+}
+.graciasDescarga h2{
+  font-family: ExoBold;
+  font-size: 80px;
+  color: #00549C;
+  padding-top: 20%;
+  width: 80%;
+}
+.graciasDescarga button{
+  border-radius: 12px !important;
+}
+/*End Gracias*/
+
 /*Mujeres*/
 .mamaEnElFuturo{
   background: url("../imgs/mujer/mamaenelfuturo.jpg") no-repeat center center;
@@ -1642,6 +1694,18 @@
   }
   .reservaUnaCita{
     min-height: 1180px;
+  }
+  .gracias h2{
+    font-size: 50px;
+  }
+  .graciasDescarga p{
+    width: 100%;
+  }
+  .graciasDescarga h2{
+    font-size: 50px;
+  }
+  .graciasDescarga p{
+    width: 100%;
   }
 
 }

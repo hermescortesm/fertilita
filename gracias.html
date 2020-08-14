@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Fertilita</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>
+        //Dropdown
+        $(document).ready(function(){
+            $(".dropdown, .btn-group").hover(function(){
+                var dropdownMenu = $(this).children(".dropdown-menu");
+                if(dropdownMenu.is(":visible")){
+                    dropdownMenu.parent().toggleClass("open");
+                }
+            });
+        });
+        //Cambiar texto ver mas
+        $(document).ready(function() {
+            $('[data-toggle="popover"]').click(function() {
+                $(this).toggleClass( "activo" );
+                if ($(this).hasClass("activo")) {
+                    $('.activo').css({"color" : "#74A839"});
+                    $(this).html("Ver menos <img src='imgs/preguntas/h1_forma6.svg' class='float-right'/>");
+                } else {
+                    $('.verMas').css({"color" : "#00549C"});
+                    $(this).html("Ver más <img src='imgs/preguntas/h1_forma6.svg' class='float-right'/>");
+                }
+            });
+        });
+        //Popovers
+        $(function () {
+            $('[data-toggle="popover"]').popover();
+        })
+        //Video
+        $(document).ready(function() {
+            // Gets the video src from the data-src
+            var $videoSrc;
+            $('.video-btn').click(function() {
+                $videoSrc = $(this).data( "src" );
+            });
+            $('#testimonio1').on('shown.bs.modal', function (e) {
+                $("#video1").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
+            });
+            $('#testimonio2').on('shown.bs.modal', function (e) {
+                $("#video2").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
+            });
+            $('#testimonio1').on('hide.bs.modal', function (e) {
+                $("#video1").attr('src',$videoSrc);
+            });
+            $('#testimonio2').on('hide.bs.modal', function (e) {
+                $("#video2").attr('src',$videoSrc);
+            });
+            // document ready
+        });
+
+
+
+    </script>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-md fixed-top-sm justify-content-start flex-nowrap blueBG">
+    <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+        <ul class="navbar-nav ml-auto flex-nowrap navTop">
+            <li class="nav-item">
+                <a href="#" class="nav-link m-2 menu-item nav-active fontExoMedium fontMedium"><i class="fas fa-phone-alt fa-lg padRight"></i> Central: (+51) 333-12341</a>
+            </li>
+            <li class="nav-item">
+                <a href="#modalProfesionales" class="nav-link m-2 menu-item fontExoRegular fontSmall" data-toggle="modal" data-target="#extraLargeModal"><i class="fas fa-user fa-lg padRight"></i>Para profesionales</a>
+                <div id="extraLargeModal" class="modal fade" tabindex="-1" role="dialog">
+
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content modalProfesionales">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            </div>
+                            <div class="modal-body my-auto">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="modal-left text-left">
+                                                <h4>Charla</h4>
+                                                <h2>Tecnología y biología aplicada a la reproducción asistida</h2>
+                                                <p>Te formarás para cubrir la gran demanda de especialistas en asistencia clínica e investigación en reproducción asistida.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="modal-right">
+                                                <p class="text-left">Si deseas solicitar más información completa los siguientes campos</p>
+                                                <form>
+                                                    <input class="form-control text-left" type="text" placeholder="Nombre y apellido">
+                                                    <input class="form-control text-left" type="text" placeholder="Teléfono">
+                                                    <input class="form-control text-left" type="email" placeholder="Correo"><br>
+                                                    <a class="btn btn-primary btn-lg text-right" href="#" role="button">Enviar</a>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link m-2 menu-item"><i class="fab fa-facebook-f fa-lg"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link m-2 menu-item"><i class="fab fa-instagram fa-lg"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link m-2 menu-item"><i class="fab fa-youtube fa-lg"></i></a>
+            </li>
+        </ul>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar2">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+<nav class="navbar navbar-expand-md navBot d-none d-lg-block">
+    <div class="navbar-collapse collapse pt-2 pt-md-0" id="navbar2">
+        <ul class="navbar-nav fontExoDemiBold">
+            <li class="nav-item active">
+                <a class="nav-link" href="#"><img src="imgs/logo-7.svg" /></a>
+            </li>
+            <li class="nav-item dropdown mt-3">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Quiero ser mamá
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="mujerconpareja.html">Mujer con pareja</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="mujersoltera.html">Mujer soltera</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="mamaenelfuturo.html">Mamá en el futuro</a>
+                </div>
+            </li>
+            <li class="nav-item mt-3">
+                <a class="nav-link" href="tratamientos.html">Tratamientos</a>
+            </li>
+            <li class="nav-item mt-3">
+                <a class="nav-link" href="conocenos.html">Conócenos</a>
+            </li>
+            <li class="nav-item mt-3">
+                <a class="nav-link" href="testimonios.html">Testimonios</a>
+            </li>
+            <li class="nav-item mt-3">
+                <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item mt-3">
+                <a class="btn btn-primary btn-lg" href="reservaunacita.html" role="button">Reserva una cita</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Imagen superior -->
+<div class="container-fluid gracias">
+    <div class="row">
+        <div class="col-lg-2 col-sm-12"></div>
+        <div class="col-lg-6 col-sm-12 text-left">
+            <h2>Gracias por confiar en nosotros</h2>
+            <p>En breve nos comunicaremos contigo para brindarte más información</p><br>
+            <a class="btn btn-primary btn-lg xlButton fontNotoSansJPBold" href="index.html.html" role="button">Volver a inicio</a>
+            <br><p>También puedes encontrarnos en:<br><br><img src="imgs/gracias/face.svg" /><img src="imgs/gracias/insta.svg" /><img src="imgs/gracias/youtube.svg" /> </p>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+
+        </div>
+    </div>
+</div>
+<!-- End Imagen superior -->
+
+<!-- Footer -->
+<footer class="container-fluid footer">
+    <div class="row">
+        <div class="col-sm-12 col-lg-1"></div>
+        <div class="col-sm-12 col-lg-10">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                    <h4>Central:</h4>
+                    <h2>(+51) 044-373814</h2>
+                    <h4>Av. Las Calles 111, Lima</h4><br>
+                </div>
+                <div class="col-sm-12 col-lg-2">
+                    <h4>Quiero ser mamá</h4>
+                    <p><a href="mujerconpareja.html">Mujer con pareja</a></p>
+                    <p><a href="mujersoltera.html">Mujer Soltera</a></p>
+                    <p><a href="mamaenelfuturo.html">Mamá en el futuro</a></p>
+                    <p></p>
+                </div>
+                <div class="col-sm-12 col-lg-2">
+                    <h4><a href="tratamientos.html">Tratamientos</a></h4>
+                    <p>Diagnóstico Masculino y Femenino</p>
+                    <p>Tratamiento de Fertilidad</p>
+                    <p>Técnicas</p>
+                    <p>Obstetricia</p>
+                    <p>Prueba Genética</p>
+                </div>
+                <div class="col-sm-12 col-lg-2">
+                    <h4><a href="conocenos.html">Conócenos</a></h4>
+                    <h4><a href="testimonios.html">Testimonios</a></h4>
+                    <h4><a href="blog.html">Blog</a></h4>
+                </div>
+                <div class="col-sm-12 col-lg-2">
+                    <h4><a href="preguntasfrecuentes.html">Preguntas Frecuentes</a></h4>
+                    <h4><a href="reservaunacita.html">Reserva una cita</a></h4>
+                    <h4>Redes</h4>
+                    <a href="#" class=""><i class="fab fa-facebook-square fa-2x"></i></a>
+                    <a href="#" class=""><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#" class=""><i class="fab fa-youtube fa-2x"></i></a>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                    <a href="#"><img class="float-left" src="imgs/logo_footer.svg" /></a>
+                </div>
+                <div class="col-sm-12 col-lg-2">
+                    <br><br><p>© 2020 Ferti</p>
+                </div>
+                <div class="col-sm-12 col-lg-2">
+                    <br><br><p>Desarrollado por Invitro</p>
+                </div>
+                <div class="col-sm-12 col-lg-4"></div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-1"></div>
+    </div>
+</footer>
+<!-- End Footer -->
+
+<!-- Boton flotante -->
+<div class="float">
+    <div class="my-float-text fontNotoSansJPBold">
+        <p>¿Tienes dudas? Contáctanos</p>
+    </div>
+    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Fertilita." target="_blank">
+        <img class="my-float-whats" src="imgs/boton_flotante/boton_wapp.svg" />
+    </a>
+</div>
+<!-- End boton flotante -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+</body>
+
+</html>
